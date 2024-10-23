@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+.Main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  margin-top: 5%;
+  margin-bottom: 60px;
+}
+
+.botao {
+  color: white;
+  background-color: #5375e5;
+  height: 91px;
+  width: 193px;
+  border-radius: 8px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.carrossel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Distribui os elementos igualmente */
+  width: 80%; /* Ocupa 100% da largura disponível */
+}
+
+.elementos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  margin-bottom: 50px;
+  color: white;
+  background-color: #5375e5;
+  height: 184px;
+  width: 252px;
+  border-radius: 8px;
+  text-align: center; 
+  padding: 20px; 
+}
+
+.elementos img {
+  height: 60px;
+  width: auto;
+}

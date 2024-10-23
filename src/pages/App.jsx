@@ -1,6 +1,9 @@
 import { useEffect, useState } from 'react';
 import '../styles/App.css';
 import { apiService } from '../services/apiService';
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import MainContent from "../components/MainContent";
 
 function App() {
   const [events, setEvents] = useState([]);
@@ -29,7 +32,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Lista de Eventos</h1>
+      {/* <h1>Lista de Eventos</h1>
       {loading ? (
         <p>Carregando...</p>
       ) : (
@@ -40,7 +43,10 @@ function App() {
             </li>
           ))}
         </ul>
-      )}
+      )} */}
+      <Header />
+      <MainContent />
+      <Footer />
     </div>
   );
 }
