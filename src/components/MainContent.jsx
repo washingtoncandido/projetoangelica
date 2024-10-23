@@ -11,19 +11,19 @@ function MainContent() {
       <div className="carrossel">
         <div className="elementos">
           <img src={Text} alt="Text" />
-          NÃO CONSEGUE RESPONDER MENSAGEM
+          Listar Eventos
         </div>
         <div className="elementos">
           <img src={Demanda} alt="Demanda" />
-          TEM ALTA DEMANDA DE MENSAGEM
+          Criar Evento
         </div>
         <div className="elementos">
           <img src={Mensagem} alt="Mensagem" />
-          PRECISA ENVIAR VÁRIAS MENSAGENS SIMULTANEAS
+          Alterar Evento
         </div>
         <div className="elementos">
           <img src={Whatsapp} alt="whatsapp" />
-          TEM WHATSAPP COMO SEU MAIOR NEGOCIO
+          Disparar Evento
         </div>
       </div>
       <a href="http://localhost:3000/RegisterEvent">
