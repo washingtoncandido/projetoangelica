@@ -2,7 +2,10 @@
 import { useEffect, useState } from 'react';
 import '../styles/registerEvent.css';
 import { createEvent } from '../services/eventService';
-
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import CreateEvent from "../components/CreateEvent";
+import MainEvent from '../components/MainEvent';
 function RegisterEvent() {
   const [title, setTitle] = useState('');
   const [description, setDescription] = useState('');
@@ -41,7 +44,7 @@ function RegisterEvent() {
   }, [title])
   return (
     <div className="App">
-      <h1>Registrar Evento</h1>
+      {/* <h1>Registrar Evento</h1>
 
       <div>
         <label htmlFor="title">Título:</label>
@@ -87,7 +90,11 @@ function RegisterEvent() {
         />
       </div>
 
-      <button onClick={handleCreate}>Salvar Evento</button>
+      <button onClick={handleCreate}>Salvar Evento</button> */}
+      <Header />
+      {/* <CreateEvent /> */}
+      <MainEvent />
+      <Footer />
     </div>
   );
 }
